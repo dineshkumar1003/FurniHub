@@ -196,7 +196,7 @@ function AdminProductEdit() {
 
             {product.image && (
               <img
-                src={`http://localhost:5000${product.image}`}
+                src={`https://furnihub-hlkx.onrender.com${product.image}`}
                 alt="Product"
                 className="mt-4 h-40 rounded border"
               />

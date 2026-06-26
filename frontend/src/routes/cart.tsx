@@ -60,7 +60,7 @@ function CartPage() {
                   src={
                     item.image?.startsWith("http")
                       ? item.image
-                      : `http://localhost:5000${item.image}`
+                      : `https://furnihub-hlkx.onrender.com${item.image}`
                   }
                   alt={item.name}
                   className="aspect-square w-28 rounded-sm object-cover md:w-36"

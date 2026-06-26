@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/orders";
+const API = "https://furnihub-hlkx.onrender.com/api/orders";
 
 const getConfig = () => {
   const token = localStorage.getItem("token");

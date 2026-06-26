@@ -6,7 +6,7 @@ export const googleLogin =
   ) => {
     const { data } =
       await axios.post(
-        "http://localhost:5000/api/auth/google",
+        "https://furnihub-hlkx.onrender.com/api/auth/google",
         { token }
       );
 

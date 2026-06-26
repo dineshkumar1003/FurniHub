@@ -87,7 +87,7 @@ export function AuthProvider({
     ) => {
       const { data } =
         await axios.post(
-          "http://localhost:5000/api/users/login",
+          "https://furnihub-hlkx.onrender.com/api/users/login",
           {
             email,
             password,
@@ -106,7 +106,7 @@ export function AuthProvider({
   ) => {
     const { data } =
       await axios.post(
-        "http://localhost:5000/api/users/register",
+        "https://furnihub-hlkx.onrender.com/api/users/register",
         {
           name,
           email,

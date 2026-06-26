@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API =
-  "http://localhost:5000/api/admin/dashboard";
+  "https://furnihub-hlkx.onrender.com/api/admin/dashboard";
 
 export const getDashboardStats =
   async () => {

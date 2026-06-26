@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API =
-  "http://localhost:5000/api/payment";
+  "https://furnihub-hlkx.onrender.com/api/payment";
 
 export const createPaymentOrder =
   async (amount: number) => {

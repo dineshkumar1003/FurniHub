@@ -136,7 +136,7 @@ function OrderPage() {
                   className="flex items-center gap-4 rounded-md border p-4"
                 >
                   <img
-                    src={`http://localhost:5000${item.image}`}
+                    src={`https://furnihub-hlkx.onrender.com${item.image}`}
                     alt={item.name}
                     className="h-24 w-24 rounded object-cover"
                   />

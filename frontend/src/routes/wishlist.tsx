@@ -82,7 +82,7 @@ function WishPage() {
                     "http"
                   )
                     ? p.image
-                    : `http://localhost:5000${p.image}`,
+                    : `https://furnihub-hlkx.onrender.com${p.image}`,
                 rating:
                   p.rating || 0,
               })

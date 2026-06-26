@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-  "http://localhost:5000/api/products";
+  "https://furnihub-hlkx.onrender.com/api/products";
 
 export const getProducts =
   async () => {

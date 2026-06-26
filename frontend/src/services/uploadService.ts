@@ -14,7 +14,7 @@ export const uploadImage =
 
     const { data } =
       await axios.post(
-        "http://localhost:5000/api/upload",
+        "https://furnihub-hlkx.onrender.com/api/upload",
         formData,
         {
           headers: {

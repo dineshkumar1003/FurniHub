@@ -39,7 +39,7 @@ const Ctx = createContext<CartCtx>(
 );
 
 const API_URL =
-  "http://localhost:5000/api/cart";
+  "hhttps://furnihub-hlkx.onrender.com/api/cart";
 
 export function CartProvider({
   children,
