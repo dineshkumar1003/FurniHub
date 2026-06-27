@@ -1,0 +1,1 @@
+import{j as r}from"./index-BHb43aRx.js";import{S as o}from"./Shell-DweFXPbo.js";const n=()=>r.jsx(o,{children:r.jsx("div",{className:"px-4 py-32 text-center",children:"Something went wrong."})});export{n as errorComponent};

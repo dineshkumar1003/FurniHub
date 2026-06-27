@@ -1,0 +1,1 @@
+import{c as r}from"./index-BHb43aRx.js";const o="https://furnihub-hlkx.onrender.com/api/orders",a=()=>({headers:{Authorization:`Bearer ${localStorage.getItem("token")}`}}),s=async t=>{const{data:e}=await r.post(o,t,a());return e},c=async t=>{const{data:e}=await r.get(`${o}/${t}`,a());return e};export{s as c,c as g};
